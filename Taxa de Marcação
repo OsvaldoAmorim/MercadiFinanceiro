@@ -1,0 +1,25 @@
+Títulos Públicos
+  Taxa de Marcação = Taxa Indicativa Anbima
+  
+Títulos Privados
+  PRE -> Se o primeiro dia = dia da Integralização => Usar a taxa de emissão
+      -> Se o primeiro dia <> dia da Integralização => Usar a taxa da compra
+      -> A partir do segundo dia (ou depois do Comitê) => Transformar a taxa de emissão (ou taxa da compra) em %CDI
+        -> %CDI = ((1 + Taxa_Emissao)^(1/252)-1) / ((1 + Taxa_Pre_Dia_da_compra)^(1/252)-1)
+  
+  CDI + -> Se o primeiro dia = dia da Integralização => Usar a taxa de emissão ~> Exemplo CDI + 2,3%
+      -> Se o primeiro dia <> dia da Integralização => Usar a taxa da compra   ~> Exemplo CDI + 2,3%
+      -> Montar a planilha com os fluxos e utilizar o atingir meta (Goal Seek) na Taxa de Marcação para achar a taxa
+        
+  %CDI -> Se o primeiro dia = dia da Integralização => Usar a taxa de emissão ~> Exemplo CDI + 2,3%
+      -> Se o primeiro dia <> dia da Integralização => Usar a taxa da compra   ~> Exemplo CDI + 2,3%
+      -> Montar a planilha com os fluxos e utilizar o atingir meta (Goal Seek) na Taxa de Marcação para achar o %CDI equivalente a taxa da compra
+  
+  IPCA
+  
+  
+  
+  IPCA +
+  
+  
+  IGPM
