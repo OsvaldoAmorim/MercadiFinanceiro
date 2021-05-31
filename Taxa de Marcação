@@ -5,7 +5,7 @@ Títulos Privados
   PRE -> Se o primeiro dia = dia da Integralização => Usar a taxa de emissão
       -> Se o primeiro dia <> dia da Integralização => Usar a taxa da compra
       -> A partir do segundo dia (ou depois do Comitê) => Transformar a taxa de emissão (ou taxa da compra) em %CDI
-        -> %CDI = ((1 + Taxa_Emissao)^(1/252)-1) * ((1 + Taxa_Pre_Dia_da_compra)^(1/252)-1)
+        -> %CDI = ((1 + Taxa_Marcação)^(1/252)-1) * ((1 + Taxa_Pre_Dia_da_compra)^(1/252)-1)
   
   CDI + -> Se o primeiro dia = dia da Integralização => Usar a taxa de emissão ~> Exemplo CDI + 2,3%
       -> Se o primeiro dia <> dia da Integralização => Usar a taxa da compra   ~> Exemplo CDI + 2,3%
